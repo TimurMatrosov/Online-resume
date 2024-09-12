@@ -3,75 +3,165 @@
     <head>
         <meta charset="UTF-8">
         <title>My Resume</title>
-<style>
-    body {
-        display: flex;
-        justify-content: space-evenly;
-        height: 100vh;
-        padding: 10px;
-        margin: 10px;
-    }
-    .flex-container {
-        height: 230px;
-        width: auto;
-        background-color: #8ed1fc;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        
-        }
-        h4,ul {
-        color: black;
-        font-size: large;
-        }
-        h4 {
-            margin-top: 100px;
-            margin-left: 30px;
-            color: black;
-        }
-        ul {
-            margin-top: 17px;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-rows: 250px 250px;
-            grid-template-columns: 200px 200px;
-            gap: 5px;
-        }
-        .grid-item {background-color: #8ed1fc;
-        
-        }
-        
-
-</style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">       
+    <link rel="stylesheet" href="/Online resume/css/style.css">
     </head>
     <body>
-        <div class="flex-container">
-        <h1></h1>
-        <h2><img src="Tim Photo1.png" height="200" alt="Tim Photo1"></h2>
+        <section id="navigation bar">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+                <div class="container-fluid">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="My projects.html">My projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contact.html" >Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>    
+        </section>
         
-        <h4>Software Developer</h4>
-    <h5>
-        <ul>Programming Skills
-        <li>Web Development</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>Node.js</li>
-        <li>React.js</li>
-        <li>SQL</li>
-        <li>Express.js</li>
-        </ul>
-    </h5>
-        </div>
-    
-    
-    <div class="grid-container">
-      <div class="grid-item"><img src="Tim Photo2.png" height="250px" width="200px" alt="Tim Photo2"></div>
-      <div class="grid-item">From 2016 to 2022 worked in USA as an engineer in "Primary Medical Imaging". Main responsibilities: Service Maintenance, Installations(C-Arms GE 9600, 9800, 9900) in Los Angeles Hospitals.</div>
-      <div class="grid-item"><img src="Tim Photo3.JPG" height="250px" width="200px" alt="Tim Photo3"></div>
-      <div class="grid-item"><img src="Tim Photo4.JPG" height="250" width="200px"></div> 
-    </div>
+        <section id="experience1">
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 mt-3 mx-5">Software Developer 
+                <img src="https://cdn-icons-png.flaticon.com/128/1197/1197439.png" loading="lazy" alt="Web " title="Web " width="64" height="64">
+                <span class="text-body-secondary"> </span></h2>
+              <p class="lead mx-5">
+                Programming Skills: Web Development, HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps.
+               <div> 
+                  
+            </div>
+            </p>
 
+            </div>
+            <div class="col-md-5">
+                <img src="/Online resume/Tim Photo2.png" alt="photo2" height="320" width="250">
+                <img src="/Online resume/Tim photo Google.jpg" alt="photogoogle" height="320" width="250">
+            </div>
+          </div>
+        </section>
+        <hr class="featurette-divider">
+    <section id="experience2">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1"> <span class="text-body-secondary"> </span></h2>
+              <p class="lead mx-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                    <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+                  </svg> From 2016 to 2022 i have been working in the USA as an engineer in "Primary Medical Imaging". Main responsibilities: Service Maintenance, Installations(C-Arms GE 9600, 9800, 9900) in Los Angeles Hospitals.</p>
+            </div>
+            <div class="col-md-5 order-md-3">
+                
+            <img src="/Online resume/Tim Photo3.JPG" alt="photo3" height="320" width="250">  
+            <img src="/Online resume/Tim Photo4.JPG" alt="photo3" height="320" width="250">
+            </div>
+          </div>
+     
+    </section>
+    <hr class="featurette-divider">
     
-    </body> 
+    <section id="stone-xxi">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1"> <span class="text-body-secondary"> </span></h2>
+              <p class="lead mx-5">
+                
+     Position: Leasing manager.           
+     November 2015 — June 2016.
+     Leasing company "STONE XXI" Moscow, stone-xxi.ru </p>
+    <p class="lead mx-5">Coordination of projects, customer support.  
+    Searching for potential customers, negotiations, approvals, the signing contracts (ABC- always be closing). 
+    Carrying out of presentations, participation in thematic exhibitions.
+    Participation in the approval process for new leasing products. 
+    Preparing and reporting to the head department"</p>
+    </div>
+    <div class="col-md-5 order-md-3">
+    <img src="/Online resume/Tim photo Office.JPG" alt="photo3" height="320" width="250">  
+    <img src="/Online resume/AIDA.jpg" alt="photo3" height="320" width="250">  
+    </div>
+</div>
+    <hr class="featurette-divider">
+
+    <section id="terra-auri">
+        <div class="row featurette">
+            <div class="col-md-12 order-md-1">
+              <h2 class="featurette-heading fw-normal lh-1"> <span class="text-body-secondary"> </span></h2>
+              <p class="lead mx-5">
+
+    Position: Economist. 
+    May 2013 —September 2015.	
+    Terra Auri, Moscow, terra-auri.ru </p>
+    <p class="lead mx-5"> Formation of project budgets (cash flow, profit etc) in terms of stages and activities. Control and plan-fact analysis of budget execution. Reporting the budget for head department.• Work in 1C (the formation of orders for payment and monitoring of payment discipline etc.). Preparation of business plans and financial models(the planning period up to 15 years)• Negotiation of contracts, agreements and reporting documents on performance of work with contractors, subcontractors. Analysis of the cost of construction. Monitoring the timeliness, completeness and reliability of providing information, coordination with project managers, data consolidation. Participation in the automation of the budgeting process" </p>
+           
+         <hr class="featurette-divider">
+         
+
+         <p class="lead mx-5">
+         Position: Financial analyst.
+         March  2010 — April 2013. Investment-Development Company "ALUR" Moscow, alur-id.ru </p>
+         <p class="lead mx-5">Financial analysis of the company:Plan/Fact analysis of apartment sales. Budgeting (MDD, cash flow, profit and etc) for the objects (Hotel, housing estate, restaurant, Warehouse).- Automation of reporting forms in Excel (synchronization with 1C Accounting 8.2).- Analysis of business plans for the real estate (NPV, IRR, etc.)</p>
+         </p>
+         <hr class="featurette-divider">
+
+         <p class="lead mx-5">
+         Position: Leasing manager.
+         January 2008 — January 2010.	
+         "Extroleasing" Moscow, extroleasing.ru</p>
+         <p class="lead mx-5"> Team lead (three sales and one coordinator): training, coordination, control. Implementation of sales plan. Development of cooperation with partners(car dealers, suppliers of machinery and equipment). structuring of leasing transactions. Analysis of the borrower throughout the term of the lease. Organization and control of execution of leasing transaction. Reporting associated with the leasing operations."</p>
+         <hr class="featurette-divider">
+
+         <p class="lead mx-5">
+          Position: Leasing manager.
+          November 2006 — December 2007. 
+          "Europlan" Moscow, europlan.ru.</p>
+          <p class="lead mx-5">Implementation of sales plan financial services. Development of cooperation with autodealer partners. Analysis of financial statements of borrowers. Participated in promotions event of the company"</p>
+          <hr class="featurette-divider">
+     
+          <p class="lead mx-5">
+          Education	</p>	
+          
+          <p class="lead mx-5">Udemy.com       -Full-Stack Web Developer. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps.</p>
+          <p class="lead mx-5">2007		"Moscow state University of Economics statistics and Informatics (Moscow)Economic/Finance and credit, Master degree"</p>
+          <p class="lead mx-5">2005		"Russian chemical-technological University named by D. I. Mendeleev (Moscow)Chemical technology of polymers/ Engineer (Chemical technology of macromolecular compounds), Master degree"</p>
+         		
+          <p class="lead mx-5"> Languages:	Russian — native speaker.
+                         English — advanced </p>
+        <hr class="featurette-divider">
+     
+
+    </section>
+<section id="footer">
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="My projects.html" class="nav-link px-2 text-body-secondary">My projects</a></li>
+            <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2024 </p>
+        </footer>
+      </div>
+</section>
+
+   </body> 
 </html>
+
+    <!--
+      -->
+           
+    
